@@ -1,0 +1,113 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+    color: white;
+
+    background-color: rgb(27, 25, 25);
+}
+.container{
+    display: flex;
+    gap: 150px;
+    width: 75%;
+    align-items: flex-start;
+    margin: auto;
+    padding: 50px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.329);
+}
+#brand-description{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+.footer-brand a{
+    text-decoration: none;
+    color: #E6533C;
+    font-size: 3.1rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+
+}
+.about-links{
+    width: 55%;
+   display: flex;
+   justify-content: space-between;
+}
+.footer-ancors{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-ancors a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 1.5rem;
+}
+.get-started{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .footer{
+        
+        margin: 0;
+        padding: 20px 0 0 0;
+        background: linear-gradient(180deg, #0a0707 0%, rgba(0, 0, 0, 0.712) 100%);
+    }
+    .container{
+
+        width: 75%;
+        align-items: flex-start;
+        margin: auto;
+        padding: 10px;
+        border-bottom:1px solid rgba(128, 128, 128, 0.329);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 95%;
+        max-width: 1060px;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #brand-description{
+        width: 100%;
+    }
+    .about-links{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       gap: 50px;
+      align-items: flex-start;
+    }
+    .footer-brand a{
+        text-decoration: none;
+        color: #E6533C;
+        font-size: 2.5rem;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 100%;
+    
+    }
+    
+}

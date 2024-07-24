@@ -1,0 +1,308 @@
+
+ /* start of banner styles for big devices */
+
+
+
+ .header {
+    max-width: 1440px;
+    background: linear-gradient(360deg, #0a0707 0%, rgba(0, 0, 0, 0.712) 100%);
+    margin: 0 auto;
+    padding-top: 60px;
+
+
+
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: 0 auto;
+   padding-bottom: 40px;
+
+}
+
+
+.brand a{
+    text-decoration: none;
+    color: #E6533C;
+    font-size: 2.1rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.quick-links {
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    padding: 0;
+    border-radius: 50px;
+}
+
+.quick-links ul {
+    display: flex;
+    padding: 5px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.quick-links ul li {
+    list-style: none;
+    margin-right: 47px;
+
+}
+
+.quick-links ul li a:hover {
+    color: #E6533C;
+    ;
+}
+
+.quick-links li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.12rem;
+    line-height: 120%;
+}
+
+#home {
+    font-weight: 600;
+    border-radius: 46px;
+    padding: 8px 20px;
+    background-color: #E6533C;
+
+
+}
+
+#home:hover {
+    background: white;
+}
+
+/* ended of navbar relate styles  */
+
+/* started banner section styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+.banner-header {
+    color: #FFF;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.banner-image {
+    max-width: 50%;
+    position: relative;
+}
+
+/* .banner-image img {
+    position: relative;
+
+} */
+
+.highlight-card {
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    width: 206px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+  
+    
+
+
+}
+
+
+
+.highlight-card p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+
+    
+
+
+}
+.big-text {
+    color: #FAFAF9;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+#h-card-1{
+    position: absolute;
+    top: 160px;
+    right: -100px;
+    
+}
+ #h-card-2{
+    position: absolute;
+    top: 420px;
+    right: 250px;
+   
+ }
+ /* end of banner styles for big devices */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* start of banner styles for small devices */
+
+
+ @media screen and (max-width:576px) {
+    .header{
+        padding: 20px 10px;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+        margin: 30px 10px;
+    
+    }
+    .quick-links{
+        display: none;
+    }
+
+
+
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 100%;
+        margin: 30px 10px;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .banner-content {
+        max-width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-header {
+        color: #FFF;
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .button-box{
+        display: flex;
+        align-items: center;
+       
+        margin: 0;
+        gap: 5px;
+    }
+    
+    .banner-image {
+        max-width: 100%;
+        position: relative;
+    }
+    
+    /* .banner-image img {
+        position: relative;
+    
+    } */
+    
+    .highlight-card {
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        width: 150px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background: rgba(48, 48, 48, 0.54);
+        backdrop-filter: blur(10px);
+      
+        
+    
+    
+    }
+    
+    
+    
+    .highlight-card p {
+        color: rgba(239, 237, 232, 0.65);
+        font-size: .8rem;
+        font-weight: 400;
+        margin: 0;
+    
+        
+    
+    
+    }
+    .btn-primary, .btn-secondery{
+
+        max-width: 45%;
+        
+    }
+    .big-text {
+        color: #FAFAF9;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin: 0;
+    
+    }
+    
+    #h-card-1{
+        position: absolute;
+        top: 15%;
+        right: 3%;
+        
+    }
+     #h-card-2{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+       
+     }
+
+
+
+
+
+ }
+
+ /* end of banner styles for small devices */
