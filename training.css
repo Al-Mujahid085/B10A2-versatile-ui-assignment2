@@ -1,0 +1,156 @@
+.training{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 50px;
+    width: 75%;
+    
+
+}
+
+.section-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    
+ 
+ 
+ 
+ 
+ }
+.bg-image {
+    display: flex;
+    align-items: flex-end;
+
+
+}
+.bg-image p{
+    padding: 10px;
+}
+
+
+#image-1{
+
+    
+    height: 200px;
+    width: 24%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(images/exercise1.jpg);
+    background-size: cover;
+    background-color: rgba(76, 255, 255, 0.438);
+
+
+  
+}
+#image-2{
+    
+    height: 200px;
+    width: 46%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(images/exercise2.png);
+    background-size: cover;
+    background-color: rgba(238, 28, 28, 0.404);
+
+
+  
+}
+#image-3{
+    
+    height: 200px;
+    width: 28%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(images/exercise3.png);
+    background-size: cover;
+    background-color: rgba(65, 64, 64, 0.842)
+
+
+  
+}
+#image-4{
+    
+    height: 200px;
+    width: 42%;
+    background-blend-mode: multiply;
+   
+  
+   
+    background: url(images/exercise4.png);
+    background-size: cover;
+    background-color: rgba(3, 3, 3, 0.479);
+
+
+  
+}
+#image-5{
+    
+    height: 200px;
+    width: 26%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(images/exercise5.jpg);
+    background-size: cover;
+    background-color: rgba(82, 255, 76, 0.281);
+
+
+  
+}
+#image-6{
+    
+    height: 200px;
+    width: 30%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(images/exercise6.jpg);
+    background-size: cover;
+    background-color: rgba(76, 160, 255, 0.425);
+
+
+  
+}
+
+@media screen and (max-width: 576px) {
+
+    .training{
+        margin: 10px auto;
+        padding: 20px 0;
+        width: 100%;
+   
+    
+    }
+    .training-section-description p{
+        padding-left: 10px;
+    }
+    #image-1{
+        width: 45%;
+    }
+    #image-2{
+        width: 55%;
+        background-position-x: 70%;
+    }
+    #image-3{
+        display: none;
+    }
+    #image-4{
+        width: 55%;
+    }
+    #image-5{
+        width: 45%;
+    }
+    #image-6{
+       display: none;
+    }
+
+}
