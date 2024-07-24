@@ -1,0 +1,239 @@
+.calculator {
+
+    width: 100%;
+    margin: 20px auto;
+    margin: 20px auto;
+    padding-top: 100px;
+
+}
+
+.inner-box {
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+
+
+
+.bmi-calculator {
+
+    background-color: rgba(49, 44, 44, 0.575);
+    width: 100%;
+}
+
+.calculator-inner {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+table tr td {
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    padding: 10px 30px;
+
+
+}
+
+
+table {
+    border-collapse: collapse;
+
+}
+
+.chart {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.chart-head,
+.calculator-head {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.chart-head {
+    margin-bottom: 50px;
+}
+
+.calculator-head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.input-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+
+.input-box {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 10px 20px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.input {
+    padding-left: 10px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(32, 44, 44);
+    color: white;
+
+}
+
+#inp {
+    width: calc(200% + 20px);
+}
+
+@media screen and (max-width: 576px) {
+    .calculator {
+
+        max-width: 96%;
+        padding-top: 0;
+
+    }
+
+    .inner-box {
+        width: 95%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+
+
+    }
+
+
+
+
+    .bmi-calculator {
+
+        background-color: rgba(49, 44, 44, 0.575);
+        border-radius: 8px;
+        width: 99%;
+
+    }
+
+    .calculator-inner {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    table tr td {
+        border: 1px solid rgba(255, 255, 255, 0.356);
+        padding: 10px;
+
+
+
+    }
+
+  
+
+    table {
+        border-collapse: collapse;
+
+    }
+
+    .chart {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .chart-head,
+    .calculator-head {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .chart-head {
+        margin-bottom: 5px;
+
+    }
+
+    .calculator-head {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        padding-bottom: 0px;
+    }
+
+    .input-div {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 15px;
+
+
+    }
+
+
+
+    .input-box {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 10px 20px;
+        padding-bottom: 20px;
+
+
+
+    }
+
+    .input {
+        padding-left: 10px;
+        height: 40px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(32, 44, 44);
+        color: white;
+
+    }
+
+    #inp {
+        width: calc(200% + 20px);
+   
+
+        
+    }
+}
