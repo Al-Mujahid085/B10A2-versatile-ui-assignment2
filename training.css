@@ -1,3 +1,11 @@
+
+
+
+/* started training related styles(mujahid-bigdevices) */
+
+
+
+
 .training{
     display: flex;
     flex-direction: column;
@@ -122,6 +130,9 @@
 }
 
 @media screen and (max-width: 576px) {
+
+/* started training related styles(mujahid-mobile) */
+
 
     .training{
         margin: 10px auto;

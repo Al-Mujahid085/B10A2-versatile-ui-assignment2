@@ -1,4 +1,10 @@
 
+/* started run related styles(mujahid-bigdevices) */
+
+
+
+
+
 .run-extra{
     width: 75%;
     display: flex;
@@ -35,6 +41,10 @@
 
 
 @media screen and (max-width:576px) {
+
+
+/* started run related styles(mujahid-mobile) */
+
 
     section{
         margin: 5px;

@@ -1,3 +1,8 @@
+
+/* started ourteam related styles(mujahid-bigdevices) */
+
+
+
 .our-team {
 
     margin: 0 auto;
@@ -105,6 +110,11 @@
 }
 
 @media screen and (max-width: 576px) {
+
+
+/* started ourteam related styles(mujahid-mobile) */
+
+
 
     .our-team {
         width: 100%;

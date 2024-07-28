@@ -1,3 +1,9 @@
+
+/* started habits related styles(mujahid-bigdevices) */
+
+
+
+
 .change-habits {
     display: flex;
     flex-direction: column;
@@ -60,6 +66,8 @@
 
 @media screen and (max-width: 576px) {
 
+
+    /* started habit related styles(mujahid-mobile) */
 
     .change-habits {
         width: 100%;

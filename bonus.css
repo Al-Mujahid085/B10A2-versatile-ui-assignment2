@@ -1,3 +1,7 @@
+/* started bonus related styles(mujahid-bigdevices) */
+
+
+
 .bonus {
 
     background-image: url(./images/bonus.jpg);
@@ -84,6 +88,11 @@
     font-weight: bold;
 }
 @media screen and (max-width: 576px) {
+
+
+/* started bonas related styles(mujahid-mobile) */
+
+
     .section-inf0{
         padding: 50px 20px;
     }

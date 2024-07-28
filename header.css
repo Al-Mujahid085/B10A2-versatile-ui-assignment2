@@ -1,6 +1,6 @@
 
  /* start of banner styles for big devices */
-
+/* started header related styles(mujahid-bigdevices) */
 
 
  .header {
@@ -191,6 +191,12 @@
 
 
  @media screen and (max-width:576px) {
+
+
+/* started header related styles(mujahid-mobile) */
+
+
+
     .header{
         padding: 20px 10px;
         padding-bottom: 0;

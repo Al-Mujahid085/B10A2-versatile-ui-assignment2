@@ -1,3 +1,7 @@
+/* started calculator related styles(mujahid-laptop) */
+
+
+
 .calculator {
 
     width: 100%;
@@ -124,7 +128,14 @@ table {
 }
 
 @media screen and (max-width: 576px) {
+
+
+/* started calculator related styles(mujahid-mobile) */
+
+
     .calculator {
+
+
 
         max-width: 96%;
         padding-top: 0;
