@@ -37,7 +37,7 @@
 table tr td {
     border: 1px solid rgba(255, 255, 255, 0.356);
     padding: 10px 30px;
-
+    
 
 }
 
@@ -45,7 +45,9 @@ table tr td {
 table {
     border-collapse: collapse;
 
+
 }
+
 
 .chart {
     width: 50%;
@@ -100,7 +102,7 @@ table {
 .input {
     padding-left: 10px;
     height: 40px;
-    width: 100%;
+    width: calc(100% - 10px);
     border-radius: 10px;
     border: none;
     background-color: rgb(32, 44, 44);
@@ -108,8 +110,17 @@ table {
 
 }
 
-#inp {
+
+
+#activity{
+    
     width: calc(200% + 20px);
+    
+  
+}
+#inp{
+    width: 100%;
+
 }
 
 @media screen and (max-width: 576px) {
@@ -154,7 +165,8 @@ table {
 
     table tr td {
         border: 1px solid rgba(255, 255, 255, 0.356);
-        padding: 10px;
+        padding: 10px 32px;
+        
 
 
 
@@ -164,11 +176,12 @@ table {
 
     table {
         border-collapse: collapse;
+        width: 100%;
 
     }
 
     .chart {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -214,6 +227,7 @@ table {
         width: 100%;
         gap: 10px 20px;
         padding-bottom: 20px;
+        margin: 10px auto;
 
 
 
@@ -222,7 +236,7 @@ table {
     .input {
         padding-left: 10px;
         height: 40px;
-        width: 100%;
+        width: calc(100% - 10px);
         border-radius: 10px;
         border: none;
         background-color: rgb(32, 44, 44);
@@ -230,10 +244,5 @@ table {
 
     }
 
-    #inp {
-        width: calc(200% + 20px);
-   
-
-        
-    }
+ 
 }
