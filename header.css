@@ -77,7 +77,9 @@
 #home:hover {
     background: white;
 }
-
+.only-mobile{
+   display: none;
+}
 /* ended of navbar relate styles  */
 
 /* started banner section styles */
@@ -301,7 +303,15 @@
 
 
 
+     .only-mobile{
+        display: flex;
+        height: 40px;
+        margin-right: 20px;
+        border: 2px solid rgba(192, 192, 192, 0.473);
+        border-radius: 10px;
+        
 
+     }
 
  }
 
