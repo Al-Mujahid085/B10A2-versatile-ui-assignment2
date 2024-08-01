@@ -1,0 +1,937 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* started common related styles(mujahid-bigdevices) */
+
+.miami-font{
+    font-family: 'Miama', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+
+}
+* {
+    margin: 0;
+
+}
+
+
+
+
+
+
+main {
+    max-width: 1440px;
+    margin:0 auto;
+    background-color: #0a0707;
+    color: #FAFAF9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+
+
+.section {
+
+
+    margin: 20px auto;
+    padding-top: 100px;
+}
+
+
+.section-header {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+    height: 50px;
+
+    width: 200px;
+    justify-content: left;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #E6533C;
+}
+
+
+
+
+.btn-secondery {
+    color: #FFF;
+    background: transparent;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+}
+
+
+
+.btn-primary:hover,
+.btn-secondery:hover {
+    background-color: darkgreen;
+
+}
+
+.paragraph-primary {
+    font-size: 1rem;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.377);
+}
+
+.paragraph-secondery {
+    color: rgba(255, 255, 255, 0.205);
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+/* start of banner styles for big devices */
+/* started header related styles(mujahid-bigdevices) */
+
+
+.header {
+    max-width: 1440px;
+    background: linear-gradient(360deg, #0a0707 0%, rgba(0, 0, 0, 0.712) 100%);
+    margin: 0 auto;
+    padding-top: 60px;
+
+
+
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: 0 auto;
+   padding-bottom: 40px;
+
+}
+
+
+.brand a{
+    text-decoration: none;
+    color: #E6533C;
+    font-size: 2.1rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.quick-links {
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    padding: 0;
+    border-radius: 50px;
+}
+
+.quick-links ul {
+    display: flex;
+    padding: 5px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.quick-links ul li {
+    list-style: none;
+    margin-right: 47px;
+
+}
+
+.quick-links ul li a:hover {
+    color: #E6533C;
+    ;
+}
+
+.quick-links li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.12rem;
+    line-height: 120%;
+}
+
+#home {
+    font-weight: 600;
+    border-radius: 46px;
+    padding: 8px 20px;
+    background-color: #E6533C;
+
+
+}
+
+#home:hover {
+    background: white;
+}
+.only-mobile{
+   display: none;
+}
+/* ended of navbar relate styles  */
+
+/* started banner section styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+.banner-header {
+    color: #FFF;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.banner-image {
+    max-width: 50%;
+    position: relative;
+}
+
+/* .banner-image img {
+    position: relative;
+
+} */
+
+.highlight-card {
+
+    width: 206px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+  
+    
+
+
+}
+
+
+
+.highlight-card p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+
+    
+
+
+}
+.big-text {
+    color: #FAFAF9;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+#h-card-1{
+    position: absolute;
+    top: 23%;
+    right: -27%;
+
+}
+ #h-card-2{
+    position: absolute;
+    top: 72%;
+    right: 75%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+   
+ }
+ /* end of banner styles for big devices */
+
+
+ /* started habits related styles(mujahid-bigdevices) */
+
+
+
+
+.change-habits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin: 0px auto;
+    gap: 40px;
+    padding-top: 100px;
+
+}
+
+.habits-section-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.cards-image {}
+
+.cards-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10;
+
+
+
+
+}
+
+.cards-image {
+
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 10px;
+    width: 70%;
+
+
+}
+
+.image-name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+
+/* started run related styles(mujahid-bigdevices) */
+
+
+
+
+
+.run-extra{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    gap: 200px;
+    padding: 40px;
+    background-color: rgba(49, 44, 44, 0.575);
+    margin-top: 100px;
+    
+}
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.run-sec-header{
+    line-height: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.img{
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 15px;
+
+}
+.img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+/* started training related styles(mujahid-bigdevices) */
+
+
+
+
+.training{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 50px;
+    width: 75%;
+    
+
+}
+
+.section-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    
+ 
+ 
+ 
+ 
+ }
+.bg-image {
+    display: flex;
+    align-items: flex-end;
+
+
+}
+.bg-image p{
+    padding: 10px;
+}
+
+
+#image-1{
+
+    
+    height: 200px;
+    width: 24%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(../images/exercise1.jpg);
+    background-size: cover;
+    background-color: rgba(76, 255, 255, 0.438);
+
+
+  
+}
+#image-2{
+    
+    height: 200px;
+    width: 46%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(../images/exercise2.png);
+    background-size: cover;
+    background-color: rgba(238, 28, 28, 0.404);
+
+
+  
+}
+#image-3{
+    
+    height: 200px;
+    width: 28%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(../images/exercise3.png);
+    background-size: cover;
+    background-color: rgba(65, 64, 64, 0.842)
+
+
+  
+}
+#image-4{
+    
+    height: 200px;
+    width: 42%;
+    background-blend-mode: multiply;
+   
+  
+   
+    background: url(../images/exercise4.png);
+    background-size: cover;
+    background-color: rgba(3, 3, 3, 0.479);
+
+
+  
+}
+#image-5{
+    
+    height: 200px;
+    width: 26%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(../images/exercise5.jpg);
+    background-size: cover;
+    background-color: rgba(82, 255, 76, 0.281);
+
+
+  
+}
+#image-6{
+    
+    height: 200px;
+    width: 30%;
+    background-blend-mode: overlay;
+   
+  
+   
+    background: url(../images/exercise6.jpg);
+    background-size: cover;
+    background-color: rgba(76, 160, 255, 0.425);
+
+
+  
+}
+
+
+
+/* started calculator related styles(mujahid-laptop) */
+
+
+
+.calculator {
+
+    width: 100%;
+    margin: 20px auto;
+    margin: 20px auto;
+    padding-top: 100px;
+
+}
+
+.inner-box {
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+
+
+
+.bmi-calculator {
+
+    background-color: rgba(49, 44, 44, 0.575);
+    width: 100%;
+}
+
+.calculator-inner {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+table tr td {
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    padding: 10px 30px;
+    
+
+}
+
+
+table {
+    border-collapse: collapse;
+
+
+}
+
+
+.chart {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.chart-head,
+.calculator-head {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.chart-head {
+    margin-bottom: 50px;
+}
+
+.calculator-head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.input-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+
+.input-box {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 10px 20px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.input {
+    padding-left: 10px;
+    height: 40px;
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(32, 44, 44);
+    color: white;
+
+}
+
+
+
+#activity{
+    
+    width: calc(200% + 20px);
+    
+  
+}
+#inp{
+    width: 100%;
+
+}
+
+
+
+
+/* started ourteam related styles(mujahid-bigdevices) */
+
+
+
+.our-team {
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+.section-information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: rgba(34, 31, 31, 0.897);
+    color: white;
+   
+
+
+}
+
+.card-1 {
+    background-image: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.card-2 {
+
+    background-image: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.card-3 {
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.card-4 {
+    background-image: url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    height: 250px;
+}
+
+.card-5 {
+    background-image: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.card-6 {
+    background-image: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+
+
+
+}
+
+.card p {
+    margin: 0;
+
+    backdrop-filter: blur(5px);
+
+}
+
+
+
+
+
+
+.trainer {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.post {
+    color: rgba(255, 255, 255, 0.61);
+
+}
+
+
+
+/* started bonus related styles(mujahid-bigdevices) */
+
+
+
+.bonus {
+
+    background-image: url(../images/bonus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    color: white;
+    padding: 100px 0;
+   
+}
+
+.section-des-card {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 1%;
+    
+}
+
+.bonus-card {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    border-right: 1px solid gray;
+    height: 300px;
+    width: 22%;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: brown 10px;
+
+
+
+    
+}
+.bonus-card p{
+    font-size: 1rem;
+    color: rgba(250, 224, 224, 0.774);
+}
+
+.bonus-card-1 {
+    background-image: url(../images/images.jpg);
+    justify-content: flex-end;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.bonus-card-2 {
+    background-image: url(../images/streach.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.425);
+    text-align: right;
+}
+
+.bonus-card-3 {
+    background-image: url(../images/stamina.jpg);
+    justify-content: flex-end;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.bonus-card-4 {
+    text-align: right;
+    background-image: url(../images/strong\ bones.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.274);
+
+}
+
+.bonus-card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+/* started footer related styles(mujahid-bigdevices) */
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+    color: white;
+
+    background-color: rgb(27, 25, 25);
+}
+.container{
+    display: flex;
+    gap: 150px;
+    width: 75%;
+    align-items: flex-start;
+    margin: auto;
+    padding: 50px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.329);
+}
+#brand-description{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+.footer-brand a{
+    text-decoration: none;
+    color: #E6533C;
+    font-size: 3.1rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+
+}
+.about-links{
+    width: 55%;
+   display: flex;
+   justify-content: space-between;
+}
+.footer-ancors{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-ancors a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 1.5rem;
+}
+.get-started{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 20px;
+
+}
+
+
+
+
